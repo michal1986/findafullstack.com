@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Full Stack Developer Platform</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #f2f2f2;
+        }
+        header {
+            background-color: #333;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        header button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #007acc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        header button:hover {
+            background-color: #005f99;
+        }
+        .search-bar {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .search-bar input {
+            width: 80%;
+            max-width: 500px;
+            padding: 10px;
+            border: 1px solid #444;
+            border-radius: 5px;
+            background-color: #222;
+            color: #f2f2f2;
+        }
+        .developer-list {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .developer-card {
+            background-color: #333;
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+        .developer-card img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+        .developer-card .info {
+            flex-grow: 1;
+        }
+        .developer-card button {
+            padding: 5px 10px;
+            background-color: #007acc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .developer-card button:hover {
+            background-color: #005f99;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hire Full Stack Developers</h1>
+        <button>Post a Job</button>
+    </header>
+    <div class="search-bar">
+        <input type="text" placeholder="Search developers by skill, location, etc.">
+    </div>
+    <div class="developer-list">
+        <div class="developer-card">
+            <img src="https://via.placeholder.com/50" alt="Developer Photo">
+            <div class="info">
+                <h3>Jane Doe</h3>
+                <p>JavaScript, React, Node.js</p>
+            </div>
+            <button>View Profile</button>
+        </div>
+        <div class="developer-card">
+            <img src="https://via.placeholder.com/50" alt="Developer Photo">
+            <div class="info">
+                <h3>John Smith</h3>
+                <p>Python, Django, PostgreSQL</p>
+            </div>
+            <button>View Profile</button>
+        </div>
+        <div class="developer-card">
+            <img src="https://via.placeholder.com/50" alt="Developer Photo">
+            <div class="info">
+                <h3>Alice Johnson</h3>
+                <p>Java, Spring Boot, MySQL</p>
+            </div>
+            <button>View Profile</button>
+        </div>
+    </div>
+</body>
+</html>
